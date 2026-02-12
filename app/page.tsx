@@ -132,9 +132,30 @@ const EXPERIENCE = [
 ];
 
 const CERTIFICATES = [
-  { title: "AI in Healthcare Specialization", issuer: "Coursera", date: "Nov 2025 — Present" },
-  { title: "Principles of Generative AI", issuer: "Infosys Springboard", date: "Oct 2025" },
-  { title: "Artificial Intelligence Primer", issuer: "Infosys Springboard", date: "Jun 2025" },
+  {
+    title: "Bharatiya Antariksh Hackathon 2025 — Certificate of Acknowledgement (Idea Submission)",
+    issuer: "ISRO",
+    date: "2025",
+    link: "/achive/Hack2skill-Certificate.pdf",
+  },
+  {
+    title: "AI in Healthcare Specialization",
+    issuer: "Coursera",
+    date: "Nov 2025 — Present",
+    link: "/achive/AI%20in%20Healthcare%20Specialization%20Certificate%20Coursera.pdf",
+  },
+  {
+    title: "Principles of Generative AI",
+    issuer: "Infosys Springboard",
+    date: "Oct 2025",
+    link: "/achive/Principles%20of%20Generative%20AI%20Certification.pdf",
+  },
+  {
+    title: "Artificial Intelligence Primer",
+    issuer: "Infosys Springboard",
+    date: "Jun 2025",
+    link: "/achive/Artificial%20Intelligence%20Primer%20Certification.pdf",
+  },
 ];
 
 const ACHIEVEMENTS = [
@@ -420,7 +441,7 @@ function AboutSection() {
 
         <motion.div variants={stagger} className="mt-8 grid grid-cols-2 gap-2 sm:mt-10 sm:gap-3 sm:grid-cols-4">
           {[
-            { n: "3", l: "AI Internships" },
+            { n: "3+", l: "AI Internships" },
             { n: "7+", l: "Projects" },
             { n: "3", l: "Certifications" },
             { n: "40%", l: "Model Reduction" },
