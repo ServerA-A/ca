@@ -200,6 +200,14 @@ function MailIcon({ className = "size-5" }: { className?: string }) {
   );
 }
 
+function DownloadIcon({ className = "size-5" }: { className?: string }) {
+  return (
+    <svg className={className} fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v11.25m0 0l-4.5-4.5m4.5 4.5l4.5-4.5M4.5 16.5v1.125A2.625 2.625 0 007.125 20.25h9.75A2.625 2.625 0 0019.5 17.625V16.5" />
+    </svg>
+  );
+}
+
 /* ───────── SHARED LAYOUT ───────── */
 const CONTAINER = "mx-auto w-full max-w-4xl px-6 sm:px-8";
 
@@ -342,6 +350,17 @@ function HeroSection() {
               <svg className="size-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
               </svg>
+            </a>
+          </Button>
+
+          <Button variant="outline" className="rounded-full border-border bg-card" asChild>
+            <a
+              href="https://drive.google.com/file/d/1xR9TiwmjnxNGQcxC8hG0imQg28jolJMV/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <DownloadIcon className="size-4" />
+              Download CV
             </a>
           </Button>
 
@@ -673,6 +692,16 @@ function ContactSection() {
             <a href="https://www.linkedin.com/in/maulika-rongala/" target="_blank" rel="noopener noreferrer">
               <LinkedInIcon className="size-4" />
               LinkedIn
+            </a>
+          </Button>
+          <Button variant="outline" className="rounded-full border-border bg-card" asChild>
+            <a
+              href="https://drive.google.com/file/d/1xR9TiwmjnxNGQcxC8hG0imQg28jolJMV/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <DownloadIcon className="size-4" />
+              Download CV
             </a>
           </Button>
         </motion.div>
