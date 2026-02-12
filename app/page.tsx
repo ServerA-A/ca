@@ -133,7 +133,7 @@ const EXPERIENCE = [
 
 const CERTIFICATES = [
   {
-    title: "Bharatiya Antariksh Hackathon 2025",
+    title: "Bharatiya Antariksh Hackathon 2025 - Certficate of Participation",
     issuer: "ISRO",
     date: "2025",
     link: "/achive/Hack2skill-Certificate.pdf",
