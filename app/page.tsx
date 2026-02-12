@@ -97,7 +97,7 @@ const SKILL_CATEGORIES = [
   },
   {
     category: "Soft Skills",
-    skills: ["Problem-Solving", "Leadership", "Project Management", "Adaptability", "Attention to Detail", "Quick Learner"],
+    skills: ["Problem-Solving", "Project Management", "Adaptability", "Attention to Detail", "Quick Learner"],
   },
 ];
 
