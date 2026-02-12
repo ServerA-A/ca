@@ -45,7 +45,6 @@ function Section({
   );
 }
 
-/* ───────── DATA ───────── */
 const PROJECTS = [
   {
     title: "Clam-Zone — Amazon Clone",
