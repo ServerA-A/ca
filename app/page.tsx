@@ -441,7 +441,7 @@ function AboutSection() {
           {[
             { n: "3+", l: "AI Internships" },
             { n: "7+", l: "Projects" },
-            { n: "3", l: "Certifications" },
+            { n: "3+", l: "Certifications" },
             { n: "40%", l: "Model Reduction" },
           ].map((s) => (
             <motion.div key={s.l} variants={fade}>
